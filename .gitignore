@@ -1,0 +1,32 @@
+# Embedded libraries (Ace3, LibDataBroker, LibDBIcon), never committed.
+# Release builds get them from the .pkgmeta externals; for local testing,
+# scripts/fetch-libs.sh downloads them.
+Libs/
+
+# Release and packaging output
+*.zip
+*.tar.gz
+.release/
+
+# Compiled Lua
+luac.out
+*.luac
+
+# Local tooling
+node_modules/
+package.json
+package-lock.json
+.venv/
+venv/
+__pycache__/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sw?
+*.suo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,66 @@
+## Interface: 120100, 120105, 50504, 38002, 20506, 11509, 16001
+## Title: Peggle Redux
+## Version: 1.0.0
+## Notes: The popular game Peggle, rebuilt for modern World of Warcraft!
+## Author: Nighthawk42 (original game by PopCap Games, Inc.)
+## X-Website: https://github.com/Nighthawk42/wow_peggle_redux
+## X-License: MIT
+## IconTexture: Interface\AddOns\PeggleRedux\images\minimap
+## Category: Mini Games
+## SavedVariables: PeggleReduxDB
+## AddonCompartmentFunc: PeggleRedux_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: PeggleRedux_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: PeggleRedux_OnAddonCompartmentLeave
+
+embeds.xml
+
+Core\Init.lua
+Core\Constants.lua
+Core\Locale.lua
+Data\Art.lua
+Data\Levels.lua
+Data\Talents.lua
+Core\Database.lua
+Core\Progress.lua
+Core\Util.lua
+Features\Comm.lua
+Features\Sound.lua
+UI\Widgets.lua
+
+Game\State.lua
+Game\Level.lua
+Game\Physics.lua
+Game\Scoring.lua
+Game\Aim.lua
+Game\Engine.lua
+Game\Game.lua
+
+UI\MainWindow.lua
+UI\Board.lua
+UI\Effects.lua
+UI\HUD.lua
+UI\Tubes.lua
+UI\Summary.lua
+UI\GameMenu.lua
+UI\CharacterSelect.lua
+
+Features\Duel.lua
+Features\Battle.lua
+Features\Loot.lua
+
+UI\Menu.lua
+UI\QuickPlay.lua
+UI\DuelTab.lua
+UI\BattleTab.lua
+UI\Talents.lua
+UI\HowToPlay.lua
+UI\About.lua
+Config\Options.lua
+UI\Splash.lua
+
+UI\LootDialog.lua
+Features\Broker.lua
+Features\Achievement.lua
+Features\Triggers.lua
+Core\Commands.lua
+Core\Main.lua
